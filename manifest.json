@@ -1,0 +1,14 @@
+{
+
+  "manifest_version": 2,
+  "name": "Jira Clip",
+  "version": "1.1",
+  "description": "",
+  "content_scripts": [
+    {
+      "matches": ["https://jira.ad.i-bs.pl/*"],
+      "js": ["clip.js"]
+    }
+  ]
+
+}
